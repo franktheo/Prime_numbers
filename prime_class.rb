@@ -15,13 +15,13 @@ class Prime
    end
 
    def sieve(n)
-	  sieve = []
-	  (2..n).each { |i| sieve[i] = i }
-	  (2..Math.sqrt(n)).each do |i|
-	    (i*i).step(n, i) { |j| sieve[j] = nil } if sieve[i]
-	  end
-	  sieve.compact
-	end
+      sieve = []
+      (2..n).each { |i| sieve[i] = i } 
+      (2..Math.sqrt(n)).each do |i|
+         (i*i).step(n, i) { |j| sieve[j] = nil } if sieve[i]
+      end 
+      sieve.compact
+   end
 
    def prime_table(prime_array)
       n = prime_array.size

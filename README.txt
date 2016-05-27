@@ -12,15 +12,17 @@
     We need to pass 613 to the sieve method and take the first 100 of returned prime numbers.
  6. Notes that in Multiplication of prime table we only print out half of the entries.
     This requires 1/2 n^2 operations instead of n^2 operations.
- 7. Generating prime numbers multilication table to STDOUT
+ 7. There is a primality method that can be used to check if a number is a prime
+    number or not.
+ 8. Generating prime numbers multilication table to STDOUT
     Please run prime_sieve.rb
- 8. Benchmarking
+ 9. Benchmarking
     Please run prime_sieve_benchmark.rb 
- 9. TDD test
+10. TDD test
     Please run prime_sieve_benchmark.rb 
-10. Multiplication diff (for first 10 prime numbers)
+12. Multiplication diff (for first 10 prime numbers)
     Please run prime_sieve_diff.rb
-11. Benchmarking results
+12. Benchmarking results
     x: number of prime numbers
     Run on MacBook Pro, 2.4 GHz Intel Core i5 with 8GB of memory
 
