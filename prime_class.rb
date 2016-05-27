@@ -1,7 +1,4 @@
 class Prime
-
-   #def initialize
-   #end
    
    def primality(n)
       i = 2
